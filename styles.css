@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+#logo {
+    display: flex;
+size: 20px;
+flex: 1;
+}
+#search {
+    display: flex;
+size: 60px;
+flex: 2;
+}
+#strore {
+    display: flex;
+size: 40px;
+flex: 1;
+}
+nav a:hover{
+    color: lightskyblue;
+    cursor: pointer;
+
+}
+nav a {
+    font-size: 0.7rem;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav {
+    height: 50px;
+    background-color: #38383a ;
+    color:#e9e9f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:200px;
+    padding-left: 200px;
+}
+#iphonebar {
+    width: 80%;
+    margin-inline: auto;
+    
+    height: 50px;
+    padding-inline: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:0.02px solid ;
+}
+#iphonetext {
+    font-size: 20px;
+    font-weight: 700;
+}
+#button {
+    background-color: #0071e3;
+    border: none;
+    height: 25px;
+    width: 50px;
+    color: #fff;
+    border-radius: 10px;
+}
+#imgcon {
+    width: 100vw;
+    height: 100vh;
+}
+#phph {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+#phph1 {
+    text-align: center;
+    padding-top: 50px; 
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    /* margin-bottom: 7px; */
+}
+header p {
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    initial-letter: -0.5px;
+    margin-right: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#imgwow {
+   width: 100%;
+   height: 100%;
+   background-color:#01012a ;
+}
+div h2 {
+    font-size: 50px;
+    color: #fff;
+}
+#gif {
+    font-size: 50px;
+    color: #fff;
+}
+div a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 30px;
+    initial-letter: -0.5px;
+    margin-right: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.watch123 {
+    background-color: #000;
+    align-items: center;
+}
+#watchtext {
+    background-color: #000;
+    margin-left: 600px;
+color: #fff;
+}
+#sectin-three {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+#left-section-three {
+    flex: 1;
+}
+#right-section-three {
+    flex: 2;
+}
